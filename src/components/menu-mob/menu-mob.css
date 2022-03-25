@@ -1,0 +1,62 @@
+.hamburguer{
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    .hamburguer{
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 21px;
+        z-index: 98;
+    }
+
+    .hamburguer input{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 99;
+    }
+
+   span{
+       position: absolute;
+       width: 100%;
+       height: 2px;
+       background-color: var(--red);
+       border-radius: 60px; 
+       transition: 0.2s;
+       top: 0;
+       left: 0;
+   }
+
+   span:nth-of-type(2){
+        top: 8px;
+   }
+
+   span:last-child{
+       top: 16px;
+   }
+
+   input:checked + label > span:first-child{
+       transform: rotate(-45deg);
+       top: 8px;
+   }
+
+   input:checked + label > span:nth-of-type(2){
+       opacity: 0;
+   }
+
+   input:checked + label > span:last-child{
+       transform: rotate(45deg);
+       top: 8px;
+   }
+}
+
+@media screen and (max-width: 500px){
+    .menu.mob{
+        display: block;
+    }
+}

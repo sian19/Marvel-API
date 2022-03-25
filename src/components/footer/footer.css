@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    background-color: var(--brown);
+    padding: 14px 2%;
+    color: var(--white);
+    text-align: center;
+}
+
+footer h3{
+    font-size: 0.95em;
+}
+
+footer h3:not(:first-child){
+    padding-top: 5px;
+}

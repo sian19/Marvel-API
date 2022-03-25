@@ -1,0 +1,12 @@
+.center h2{
+    color: var(--red);
+    font-size: 1.7em;
+    padding-bottom: 28px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px){
+    .center h2{
+        font-size: 1.3em;
+    }
+}

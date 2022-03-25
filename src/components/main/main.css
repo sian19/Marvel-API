@@ -1,0 +1,27 @@
+main.container{
+    width: 100%;
+    height: auto;
+    background: url('../../assets/John-Buscema-Marvel-Universe (1).svg') no-repeat center/cover;
+    padding-bottom: 100vh;
+}
+
+
+
+@media screen and (min-height: 1200px){
+    main.container{
+        height: 100vh;
+    }
+} 
+
+@media screen and (max-width:890px) and (min-height: 1200px){
+    main.container{
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
