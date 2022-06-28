@@ -17,4 +17,4 @@ Projeto criado com o consumo de uma API pública da Marvel feito em React.
   <li>Se usou styled-components para estilizar de forma individual alguns componentes para evitar entrar em conflito com outros componentes estilizados com css padrâo.</li>
 </ul>
 <h3>Link do projeto:</h3>
-<a href="https://marvel-api22.netlify.app/">clique aqui<a>
+<a href="https://marvel-api-ruby.vercel.app/">clique aqui<a>
